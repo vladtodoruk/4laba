@@ -1,0 +1,222 @@
+body {
+    background: powderblue;
+}
+.first {
+    width: 280px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.first input,
+.first button,
+.first select{
+    margin-bottom: 5px;
+}
+
+.first input[type=file] {
+    margin-bottom: 0;
+}
+
+.second {
+    width: 60%;
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.second ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.second li {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 5px;
+    padding: 2px;
+}
+
+.second li label[for=city] {
+    align-self: center;
+}
+
+.second li input,
+.second li div,
+.second li select{
+    flex:5;
+}
+
+.second li label,
+.second li span{
+    flex:4;
+}
+
+
+
+
+
+
+
+.third,
+.fourth {
+    border: 1px solid #000000;
+    font-family: "Arial", serif;
+    padding: 20px;
+}
+
+.third h1,
+.fourth h1{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.third ul label,
+.fourth ul label{
+    color: gray;
+}
+
+.third input[type="text"],
+.third input[type="password"],
+.fourth input[type="text"],
+.fourth input[type="password"]{
+    height: 32px;
+    margin-bottom: 10px;
+}
+
+.third a,
+.fourth a{
+    color: #68a1d9;
+    display: block;
+}
+
+.third-flex {
+    display: flex;
+}
+
+.sign-in {
+    margin-right: 10px;
+    flex: 4;
+}
+
+.sign-in-social {
+    margin-left: 10px;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    max-width: 400px;
+}
+
+.sign-in-social a {
+    height: 48px;
+    background-color: #F5F5F5;
+    margin-bottom: 8px;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.sign-in-social a img {
+    padding-top: 10px;
+}
+
+.third .sign-in-social p,
+.fourth .sign-in-social p{
+    text-align: center;
+}
+
+.third p,
+.fourth p{
+    color: gray;
+}
+
+.third ul,
+.fourth ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 0;
+    width: inherit;
+}
+
+.third li,
+.fourth li{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.third a,
+.fourth a{
+    display: block;
+}
+
+.third form .sign,
+.fourth form .sign {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: stretch;
+    text-align: center;
+}
+
+.third form button[type="submit"],
+.fourth form button[type="submit"]{
+    background-color: #00A046;
+    color: #FBFBFB;
+    font-size: 18px;
+    height: 32px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: none;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.pass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.vl {
+    border-left: 1px solid gray;
+    height: auto;
+    left: 50%;
+}
+
+.eye-pass {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.eye-pass button {
+    border: 0;
+    height: 32px;
+    box-shadow: none;
+    background-color: white;
+}
+
+.eye-pass button:focus {
+    border: 0;
+    box-shadow: none;
+    background-color: white;
+}
+
+.eye-pass img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.eye-pass input {
+    flex: 1;
+}
+
